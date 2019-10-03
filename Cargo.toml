@@ -1,0 +1,19 @@
+[package]
+name = "rimoio2"
+version = "0.1.0"
+authors = ["Matti Virkkunen <mvirkkunen@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+cortex-m = "0.6"
+cortex-m-rt = "0.6"
+#cortex-m-rtfm = "0.5.0"
+embedded-hal = "0.2.3"
+heapless = "0.5.1"
+panic-itm = "0.4.1"
+panic-semihosting = "0.5"
+usb-device = "0.2.1"
+usbd-serial = "0.1"
+stm32-usbd = { version = "0.3.1", features = ["stm32f103xx"] }
+stm32f1xx-hal = { version = "0.3.0", features = ["rt", "stm32f103"] }
+vcell = "0.1.0"
